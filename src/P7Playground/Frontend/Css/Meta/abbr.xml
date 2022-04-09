@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <item name="ED" description="Editors' Draft (not a W3C Technical Report)"/>
+    <item name="FPWD" description="First Public Working Draft"/>
+    <item name="WD" description="Working Draft"/>
+    <item name="CR" description="Candidate Recommendation"/>
+    <item name="CRD" description="Candidate Recommendation Draft"/>
+    <item name="PR" description="Proposed Recommendation"/>
+    <item name="REC" description="Recommendation"/>
+    <item name="NOTE" description="Working Group Note"/>
+</list>

@@ -1,0 +1,60 @@
+[Thu Apr  7 13:33:08 2022] PHP 8.1.4 Development Server (http://localhost:8090) started
+[Thu Apr  7 13:33:10 2022] 127.0.0.1:53305 Accepted
+[Thu Apr  7 13:33:10 2022] 127.0.0.1:53306 Accepted
+[Thu Apr  7 13:33:10 2022] 127.0.0.1:53305 [200]: GET /
+[Thu Apr  7 13:33:10 2022] 127.0.0.1:53305 Closing
+[Thu Apr  7 13:34:18 2022] 127.0.0.1:53306 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Apr  7 13:34:18 2022] 127.0.0.1:53306 Closing
+[Thu Apr  7 13:34:40 2022] 127.0.0.1:53430 Accepted
+[Thu Apr  7 13:34:40 2022] 127.0.0.1:53431 Accepted
+[Thu Apr  7 13:34:41 2022] 127.0.0.1:53430 [200]: GET /
+[Thu Apr  7 13:34:41 2022] 127.0.0.1:53430 Closing
+[Thu Apr  7 13:35:06 2022] 127.0.0.1:53434 Accepted
+[Thu Apr  7 13:35:35 2022] 127.0.0.1:53431 [200]: GET /
+[Thu Apr  7 13:35:35 2022] 127.0.0.1:53431 Closing
+[Thu Apr  7 13:36:14 2022] 127.0.0.1:53434 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Apr  7 13:36:14 2022] 127.0.0.1:53434 Closing
+[Thu Apr  7 13:37:01 2022] 127.0.0.1:53447 Accepted
+[Thu Apr  7 13:37:01 2022] 127.0.0.1:53448 Accepted
+[Thu Apr  7 13:37:01 2022] 127.0.0.1:53447 [200]: GET /
+[Thu Apr  7 13:37:01 2022] 127.0.0.1:53447 Closing
+[Thu Apr  7 13:37:47 2022] 127.0.0.1:53458 Accepted
+[Thu Apr  7 13:37:47 2022] PHP Fatal error:  Uncaught TypeError: DOMDocument::saveXML(): Argument #1 ($node) must be of type ?DOMNode, string given in /Users/sven.schrodt/PhpstormProjects/test/src/P7Playground/Data/Xml/Transformer.php:34
+Stack trace:
+#0 /Users/sven.schrodt/PhpstormProjects/test/src/P7Playground/Data/Xml/Transformer.php(34): DOMDocument->saveXML('bofh_episodes.x...')
+#1 /Users/sven.schrodt/PhpstormProjects/test/public/index.php(20): P7Playground\Data\Xml\Transformer->toXml(Array)
+#2 {main}
+  thrown in /Users/sven.schrodt/PhpstormProjects/test/src/P7Playground/Data/Xml/Transformer.php on line 34
+[Thu Apr  7 13:37:47 2022] 127.0.0.1:53448 [200]: GET / - Uncaught TypeError: DOMDocument::saveXML(): Argument #1 ($node) must be of type ?DOMNode, string given in /Users/sven.schrodt/PhpstormProjects/test/src/P7Playground/Data/Xml/Transformer.php:34
+Stack trace:
+#0 /Users/sven.schrodt/PhpstormProjects/test/src/P7Playground/Data/Xml/Transformer.php(34): DOMDocument->saveXML('bofh_episodes.x...')
+#1 /Users/sven.schrodt/PhpstormProjects/test/public/index.php(20): P7Playground\Data\Xml\Transformer->toXml(Array)
+#2 {main}
+  thrown in /Users/sven.schrodt/PhpstormProjects/test/src/P7Playground/Data/Xml/Transformer.php on line 34
+[Thu Apr  7 13:37:47 2022] 127.0.0.1:53448 Closing
+[Thu Apr  7 13:38:02 2022] 127.0.0.1:53460 Accepted
+[Thu Apr  7 13:38:02 2022] 127.0.0.1:53458 [200]: GET /
+[Thu Apr  7 13:38:02 2022] 127.0.0.1:53458 Closing
+[Thu Apr  7 13:38:05 2022] 127.0.0.1:53462 Accepted
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53462 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53462 Closing
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53460 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53460 Closing
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53471 Accepted
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53472 Accepted
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53471 [200]: GET /
+[Thu Apr  7 13:39:10 2022] 127.0.0.1:53471 Closing
+[Thu Apr  7 13:39:13 2022] 127.0.0.1:53474 Accepted
+[Thu Apr  7 13:39:31 2022] 127.0.0.1:53472 [200]: GET /
+[Thu Apr  7 13:39:31 2022] 127.0.0.1:53472 Closing
+[Thu Apr  7 13:41:48 2022] 127.0.0.1:53474 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Apr  7 13:41:48 2022] 127.0.0.1:53474 Closing
+[Thu Apr  7 13:46:20 2022] 127.0.0.1:53574 Accepted
+[Thu Apr  7 13:46:20 2022] 127.0.0.1:53575 Accepted
+[Thu Apr  7 13:46:20 2022] 127.0.0.1:53574 [200]: GET /
+[Thu Apr  7 13:46:20 2022] 127.0.0.1:53574 Closing
+[Thu Apr  7 13:46:22 2022] 127.0.0.1:53581 Accepted
+[Thu Apr  7 13:55:28 2022] 127.0.0.1:53581 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Apr  7 13:55:28 2022] 127.0.0.1:53581 Closing
+[Thu Apr  7 13:55:29 2022] 127.0.0.1:53575 Closed without sending a request; it was probably just an unused speculative preconnection
+[Thu Apr  7 13:55:29 2022] 127.0.0.1:53575 Closing

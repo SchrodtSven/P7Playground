@@ -1,0 +1,8 @@
+ED	Editors' Draft (not a W3C Technical Report)
+FPWD	First Public Working Draft
+WD	Working Draft
+CR	Candidate Recommendation
+CRD	Candidate Recommendation Draft
+PR	Proposed Recommendation
+REC	Recommendation
+NOTE	Working Group Note

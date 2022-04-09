@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="<?= $this->config->getLang()?>">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.23">
+    <title><?= $this->getTitle()?></title>
+</head>
+<body>
+<form action="/post.php" method="post">
+    <?= $this->getContent()?>
+
+    <label for="myBrowser">Look up for attribute name:</label>
+    <input list="names" id="myBrowser" name="myBrowser" />
+    <button>submit</button>
+</form>
+
+</body>
+</html>
